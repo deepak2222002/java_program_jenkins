@@ -10,6 +10,9 @@ public class Main
 		qp.offer("E");
 		qp.offer("D");
 		qp.offer("F");
+		qp.offer("G");
+		qp.offer("H");
+		qp.offer("I");
 		
 		System.out.println(qp.poll());
 		System.out.println(qp.poll());
