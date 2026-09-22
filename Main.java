@@ -13,6 +13,12 @@ public class Main {
 		qp.offer("I");
 		qp.offer("J");
 		qp.offer("K");
+		qp.offer("L");
+		qp.offer("M");
+		qp.offer("N");
+		System.out.println(qp.poll());
+		System.out.println(qp.poll());
+		System.out.println(qp.poll());
 		System.out.println(qp.poll());
 		System.out.println(qp.poll());
 		System.out.println(qp.poll());
